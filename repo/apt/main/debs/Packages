@@ -312,32 +312,6 @@ Description: MATE Desktop Environment (metapackage)
  It also suggests a few non-MATE standard desktop applications like an
  internet browser, a mail reader and a network management applet.
 
-Package: winehq-devel
-Architecture: amd64
-Version: 3.13.0~xenial
-Priority: optional
-Section: otherosfs
-Source: wine-devel
-Maintainer: WineHQ Builds <webmaster@fds-team.de>
-Original-Maintainer: Scott Ritchie <scottritchie@ubuntu.com>
-Installed-Size: 72
-Provides: wine, wine-amd64, wine-i386, wine1.4, wine1.4-amd64, wine1.4-i386, wine1.5, wine1.5-amd64, wine1.5-i386, wine1.6, wine1.6-amd64, wine1.6-i386, wine1.7, wine1.7-amd64, wine1.7-i386, wine32, wine64
-Depends: wine-devel (= 3.13.0~xenial)
-Conflicts: wine, wine-amd64, wine-i386
-Replaces: wine, wine-amd64, wine-i386, wine1.4, wine1.4-amd64, wine1.4-i386, wine1.5, wine1.5-amd64, wine1.5-i386, wine1.6, wine1.6-amd64, wine1.6-i386, wine1.7, wine1.7-amd64, wine1.7-i386, wine32, wine64
-Filename: ./winehq-devel_3.13.0~xenial_amd64.deb
-Size: 3192
-MD5sum: 9f04fe2263a88c0fecdc89e1a99fd0f9
-SHA1: b6c777fffcd2fd886f9d1405e3a229c7d21b3204
-SHA256: 4f8d25de247811affedf0e374be0dda9ca6aceed07c52e2d102fe424518fd3f2
-SHA512: 6f613decbe8f986a90969819dc99c54cdb616ceba9859aa4327802f565bca09d85e2be3a028e2c02bbdf30085b3fa4cb4f2dcaab49aa3093797b8c5544558e15
-Description: WINE Is Not An Emulator - runs MS Windows programs
- Wine is a program which allows running Microsoft Windows programs
- (including DOS, Windows 3.x and Win32 executables) on Unix.
- .
- This compatibility package allows to use wine-devel system-wide as
- the default Wine version.
-
 Package: mate-terminal-common
 Architecture: all
 Version: 1.16.3-1~xenial1.0
@@ -1837,32 +1811,6 @@ Description: Qt 5 Multimedia module
  .
  This package contains a set of APIs to play and record media, and manage a
  collection of media content.
-
-Package: wine-devel-i386
-Architecture: i386
-Version: 3.13.0~xenial
-Multi-Arch: foreign
-Priority: optional
-Section: otherosfs
-Source: wine-devel
-Maintainer: WineHQ Builds <webmaster@fds-team.de>
-Original-Maintainer: Scott Ritchie <scottritchie@ubuntu.com>
-Installed-Size: 185570
-Pre-Depends: dpkg (>= 1.14.12ubuntu3)
-Depends: libasound2 (>= 1.0.16), libc6 (>= 2.23), libglib2.0-0 (>= 2.12.0), libgphoto2-6 (>= 2.5.9), libgphoto2-port12 (>= 2.5.9), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.4.0), liblcms2-2 (>= 2.2+git20110628), libldap-2.4-2 (>= 2.4.7), libmpg123-0 (>= 1.13.7), libopenal1 (>= 1.14), libpcap0.8 (>= 0.9.8), libpulse0 (>= 0.99.1), libudev1 (>= 183), libx11-6, libxext6, libxml2 (>= 2.9.0), zlib1g (>= 1:1.1.4), libasound2-plugins, libncurses5
-Recommends: libcapi20-3, libcups2 (>= 1.4.0), libdbus-1-3 (>= 1.9.14), libfontconfig1 (>= 2.11.94), libfreetype6 (>= 2.2.1), libglu1-mesa | libglu1, libgnutls30 (>= 3.4.0), libgsm1 (>= 1.0.13), libgssapi-krb5-2 (>= 1.6.dfsg.2), libjpeg8 (>= 8c), libkrb5-3 (>= 1.6.dfsg.2), libncurses5 (>= 6), libodbc1 (>= 2.3.1), libosmesa6 (>= 10.2~), libpng12-0 (>= 1.2.13-4), libsane (>= 1.0.24), libsdl2-2.0-0 (>= 2.0.4), libtiff5 (>= 4.0.3), libv4l-0 (>= 0.5.0), libvulkan1, libxcomposite1 (>= 1:0.3-1), libxcursor1 (>> 1.1.2), libxfixes3, libxi6, libxinerama1, libxrandr2, libxrender1, libxslt1.1 (>= 1.1.25), libxxf86vm1
-Filename: ./wine-devel-i386_3.13.0~xenial_i386.deb
-Size: 24804676
-MD5sum: e4b63012c1eb172311606c65e6258581
-SHA1: e7078038f266aad685a2325729e7890a8004326d
-SHA256: e026f1e80f5798c406860432dd687d6fd8f85b58f6810e834b3b1470377d0037
-SHA512: 7e2a66a1db30a55ec9a71397aafcd204be9f4736bccb686c8e9e90b5931f98f6fc7248ea2f1406ba78286aa6f7d31a47f98bffcf91e81bfbc93f6a43cd22b2c4
-Description: WINE Is Not An Emulator - runs MS Windows programs
- Wine is a program which allows running Microsoft Windows programs
- (including DOS, Windows 3.x and Win32 executables) on Unix.
- .
- This package contains the files needed to support 32-bit Windows
- programs.
 
 Package: libcommons-parent-java
 Architecture: all
@@ -4039,6 +3987,32 @@ SHA256: 4bf34a178638e880ee37b5b3e14adc3242c4204fad16b57821ad9cd2e8499741
 SHA512: a2692ac088fa8ad43a9a4e2063b8545677f4528acb94f048bc78b889ff0d3db740237da42a2b4bc99352c978ffaa2129aadbd42cbf434f255817ed846bea4c95
 Description: meta-package to build SharkOS over a base xenial system.
 
+Package: wine-devel-amd64
+Architecture: amd64
+Version: 3.14.0~xenial
+Multi-Arch: foreign
+Priority: optional
+Section: otherosfs
+Source: wine-devel
+Maintainer: WineHQ Builds <webmaster@fds-team.de>
+Original-Maintainer: Scott Ritchie <scottritchie@ubuntu.com>
+Installed-Size: 202704
+Pre-Depends: dpkg (>= 1.14.12ubuntu3)
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.23), libgcc1 (>= 1:3.0), libglib2.0-0 (>= 2.12.0), libgphoto2-6 (>= 2.5.9), libgphoto2-port12 (>= 2.5.9), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.4.0), liblcms2-2 (>= 2.2+git20110628), libldap-2.4-2 (>= 2.4.7), libmpg123-0 (>= 1.6.2), libopenal1 (>= 1.14), libpcap0.8 (>= 0.9.8), libpulse0 (>= 0.99.1), libudev1 (>= 183), libx11-6, libxext6, libxml2 (>= 2.9.0), zlib1g (>= 1:1.1.4), libasound2-plugins, libncurses5
+Recommends: libcapi20-3, libcups2 (>= 1.4.0), libdbus-1-3 (>= 1.9.14), libfontconfig1 (>= 2.11.94), libfreetype6 (>= 2.2.1), libglu1-mesa | libglu1, libgnutls30 (>= 3.4.0), libgsm1 (>= 1.0.13), libgssapi-krb5-2 (>= 1.6.dfsg.2), libjpeg8 (>= 8c), libkrb5-3 (>= 1.6.dfsg.2), libncurses5 (>= 6), libodbc1 (>= 2.3.1), libosmesa6 (>= 10.2~), libpng12-0 (>= 1.2.13-4), libsane (>= 1.0.24), libsdl2-2.0-0 (>= 2.0.4), libtiff5 (>= 4.0.3), libv4l-0 (>= 0.5.0), libvulkan1, libxcomposite1 (>= 1:0.3-1), libxcursor1 (>> 1.1.2), libxfixes3, libxi6, libxinerama1, libxrandr2, libxrender1, libxslt1.1 (>= 1.1.25), libxxf86vm1
+Filename: ./wine-devel-amd64_3.14.0~xenial_amd64.deb
+Size: 25915898
+MD5sum: c79318cfa9290d27bd72a8a50ed248d1
+SHA1: 11cf54b7003c9d2467d7daf7de24fe971c978070
+SHA256: df321eff807885bc4a338b262e69802d56050d464efe0ae7371424e6692da247
+SHA512: b1d39a65968b7ad418d03d3415622f96b9e5167c6c3f664b8274d740cbc09c14e7203fa8781b8151c3aa7c1bd7e0c46e60ab9fdfcc085a78ad50bee778d4d1e1
+Description: WINE Is Not An Emulator - runs MS Windows programs
+ Wine is a program which allows running Microsoft Windows programs
+ (including DOS, Windows 3.x and Win32 executables) on Unix.
+ .
+ This package contains the files needed to support 64-bit Windows
+ programs.
+
 Package: zsh
 Architecture: amd64
 Version: 5.3.1-5~16.04.york0
@@ -4107,32 +4081,6 @@ Description: libpo-teambuilder (runtime)
  in real time with trainers from around the world!
  .
  This package contains the runtime library.
-
-Package: wine-devel-amd64
-Architecture: amd64
-Version: 3.13.0~xenial
-Multi-Arch: foreign
-Priority: optional
-Section: otherosfs
-Source: wine-devel
-Maintainer: WineHQ Builds <webmaster@fds-team.de>
-Original-Maintainer: Scott Ritchie <scottritchie@ubuntu.com>
-Installed-Size: 202274
-Pre-Depends: dpkg (>= 1.14.12ubuntu3)
-Depends: libasound2 (>= 1.0.16), libc6 (>= 2.23), libgcc1 (>= 1:3.0), libglib2.0-0 (>= 2.12.0), libgphoto2-6 (>= 2.5.9), libgphoto2-port12 (>= 2.5.9), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.4.0), liblcms2-2 (>= 2.2+git20110628), libldap-2.4-2 (>= 2.4.7), libmpg123-0 (>= 1.6.2), libopenal1 (>= 1.14), libpcap0.8 (>= 0.9.8), libpulse0 (>= 0.99.1), libudev1 (>= 183), libx11-6, libxext6, libxml2 (>= 2.9.0), zlib1g (>= 1:1.1.4), libasound2-plugins, libncurses5
-Recommends: libcapi20-3, libcups2 (>= 1.4.0), libdbus-1-3 (>= 1.9.14), libfontconfig1 (>= 2.11.94), libfreetype6 (>= 2.2.1), libglu1-mesa | libglu1, libgnutls30 (>= 3.4.0), libgsm1 (>= 1.0.13), libgssapi-krb5-2 (>= 1.6.dfsg.2), libjpeg8 (>= 8c), libkrb5-3 (>= 1.6.dfsg.2), libncurses5 (>= 6), libodbc1 (>= 2.3.1), libosmesa6 (>= 10.2~), libpng12-0 (>= 1.2.13-4), libsane (>= 1.0.24), libsdl2-2.0-0 (>= 2.0.4), libtiff5 (>= 4.0.3), libv4l-0 (>= 0.5.0), libvulkan1, libxcomposite1 (>= 1:0.3-1), libxcursor1 (>> 1.1.2), libxfixes3, libxi6, libxinerama1, libxrandr2, libxrender1, libxslt1.1 (>= 1.1.25), libxxf86vm1
-Filename: ./wine-devel-amd64_3.13.0~xenial_amd64.deb
-Size: 25877104
-MD5sum: 8ef128c88b78e0607684d64d4a949040
-SHA1: d734ce8976432fed388fd01e8f2fc9777e2c0ebf
-SHA256: 148280d17b529b8a55fe3a8d9fa3aae2f67b31d7e08a05672b23f9eea7f06498
-SHA512: 6ff394227c047762d0b59ce5db01a3d0ef49ff58657d4a2d2e4e1082235f1c845aa987ae7cfe1bc7adb686471b1c3c77981f2c08f049d5c2380a9cf72f3c1dfa
-Description: WINE Is Not An Emulator - runs MS Windows programs
- Wine is a program which allows running Microsoft Windows programs
- (including DOS, Windows 3.x and Win32 executables) on Unix.
- .
- This package contains the files needed to support 64-bit Windows
- programs.
 
 Package: thunderbird-locale-vi
 Architecture: amd64
@@ -5929,6 +5877,32 @@ Description: XZ-format compression library
  streams and the older LZMA format used by lzma. (For 7-Zip's related
  format, use the p7zip package instead.)
 
+Package: winehq-devel
+Architecture: amd64
+Version: 3.14.0~xenial
+Priority: optional
+Section: otherosfs
+Source: wine-devel
+Maintainer: WineHQ Builds <webmaster@fds-team.de>
+Original-Maintainer: Scott Ritchie <scottritchie@ubuntu.com>
+Installed-Size: 72
+Provides: wine, wine-amd64, wine-i386, wine1.4, wine1.4-amd64, wine1.4-i386, wine1.5, wine1.5-amd64, wine1.5-i386, wine1.6, wine1.6-amd64, wine1.6-i386, wine1.7, wine1.7-amd64, wine1.7-i386, wine32, wine64
+Depends: wine-devel (= 3.14.0~xenial)
+Conflicts: wine, wine-amd64, wine-i386
+Replaces: wine, wine-amd64, wine-i386, wine1.4, wine1.4-amd64, wine1.4-i386, wine1.5, wine1.5-amd64, wine1.5-i386, wine1.6, wine1.6-amd64, wine1.6-i386, wine1.7, wine1.7-amd64, wine1.7-i386, wine32, wine64
+Filename: ./winehq-devel_3.14.0~xenial_amd64.deb
+Size: 3202
+MD5sum: 84d81a959ae5e9be803d598933810603
+SHA1: d81c0522e6d38a341b3a7d670e2d405488c87236
+SHA256: c1d5d354a447b711bd862b19da54df48b7dbe7e52918e532cd2c49747fa4bb64
+SHA512: da7edbf4676d08e716f51145c6ad86f0de42b4b960e6aacd91c3fdf8982e52036f542fb4a85e0cd6ac40e55b6973b7bca9185b96bd38011ff486e5f3e056541a
+Description: WINE Is Not An Emulator - runs MS Windows programs
+ Wine is a program which allows running Microsoft Windows programs
+ (including DOS, Windows 3.x and Win32 executables) on Unix.
+ .
+ This compatibility package allows to use wine-devel system-wide as
+ the default Wine version.
+
 Package: thunderbird-locale-gd
 Architecture: amd64
 Version: 1:57.0~b2+build1-0ubuntu0.16.04.1
@@ -7352,6 +7326,31 @@ Description: LibreOffice UNO runtime environment
  it to create any kind of application, in whatever application domain you can
  imagine.
 
+Package: wine-devel
+Architecture: amd64
+Version: 3.14.0~xenial
+Multi-Arch: foreign
+Priority: optional
+Section: otherosfs
+Maintainer: WineHQ Builds <webmaster@fds-team.de>
+Original-Maintainer: Scott Ritchie <scottritchie@ubuntu.com>
+Installed-Size: 5933
+Pre-Depends: dpkg (>= 1.14.12ubuntu3)
+Depends: libc6 (>= 2.17), wine-devel-amd64 (= 3.14.0~xenial), wine-devel-i386 (= 3.14.0~xenial)
+Filename: ./wine-devel_3.14.0~xenial_amd64.deb
+Size: 1105808
+MD5sum: eda411eaedc01b0ff05612dd23257d8a
+SHA1: 5cb10182f5bc7b3f471fc837ba6af50f2633bc6f
+SHA256: 86926d959a1337310bedccd7f8789b42f224d79e8ebaa29d910328952b83304b
+SHA512: d8b228a53f562e1df84f233b7d424300b7cd2043c8ffd2d62103a608e93719489b3dbc6d687e909ba6f81f1a30e70eca538cb5c7d2907dda4fd45a0a86396861
+Description: WINE Is Not An Emulator - runs MS Windows programs
+ Wine is a program which allows running Microsoft Windows programs
+ (including DOS, Windows 3.x and Win32 executables) on Unix. It
+ consists of a program loader which loads and executes a Microsoft
+ Windows binary, and a library (called Winelib) that implements Windows
+ API calls using their Unix or X11 equivalents.  The library may also
+ be used for porting Win32 code into native Unix executables.
+
 Package: libqt5concurrent5
 Architecture: amd64
 Version: 5.5.1+dfsg-16ubuntu7.2
@@ -8644,31 +8643,6 @@ SHA512: 89f8a5afdccf8bb1c85edb5bac98e769a6a119a00d70763f00fd2e6c3bc3e6b09d5c1749
 Description: Transitional Tamil language pack for Thunderbird
  This is a transitional package to ensure that upgrades work correctly.
  It can be safely removed
-
-Package: wine-devel
-Architecture: amd64
-Version: 3.13.0~xenial
-Multi-Arch: foreign
-Priority: optional
-Section: otherosfs
-Maintainer: WineHQ Builds <webmaster@fds-team.de>
-Original-Maintainer: Scott Ritchie <scottritchie@ubuntu.com>
-Installed-Size: 5930
-Pre-Depends: dpkg (>= 1.14.12ubuntu3)
-Depends: libc6 (>= 2.17), wine-devel-amd64 (= 3.13.0~xenial), wine-devel-i386 (= 3.13.0~xenial)
-Filename: ./wine-devel_3.13.0~xenial_amd64.deb
-Size: 1103636
-MD5sum: 4768dc4a798fdd18229b348141cabd4a
-SHA1: 4a6a052983556e0153ec94c9aa6628f5289ace1f
-SHA256: 2bf900003b01fb8eefba3883320069f8490c84b3eeec1198954067bbc99360db
-SHA512: 26361436e08020088bd8d7c23e85e5a2d4c0d5912d85a9fddb729a89118f7a18a14594d608d2d3a26f6a97a80c87de10b60458d273adfc6eee6044c1677abd4c
-Description: WINE Is Not An Emulator - runs MS Windows programs
- Wine is a program which allows running Microsoft Windows programs
- (including DOS, Windows 3.x and Win32 executables) on Unix. It
- consists of a program loader which loads and executes a Microsoft
- Windows binary, and a library (called Winelib) that implements Windows
- API calls using their Unix or X11 equivalents.  The library may also
- be used for porting Win32 code into native Unix executables.
 
 Package: shark-scripts
 Architecture: all
@@ -10096,6 +10070,32 @@ Description: Qt 4 shaders QML plugin
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains the shaders QML plugin for QtDeclarative.
+
+Package: wine-devel-i386
+Architecture: i386
+Version: 3.14.0~xenial
+Multi-Arch: foreign
+Priority: optional
+Section: otherosfs
+Source: wine-devel
+Maintainer: WineHQ Builds <webmaster@fds-team.de>
+Original-Maintainer: Scott Ritchie <scottritchie@ubuntu.com>
+Installed-Size: 185996
+Pre-Depends: dpkg (>= 1.14.12ubuntu3)
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.23), libglib2.0-0 (>= 2.12.0), libgphoto2-6 (>= 2.5.9), libgphoto2-port12 (>= 2.5.9), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.4.0), liblcms2-2 (>= 2.2+git20110628), libldap-2.4-2 (>= 2.4.7), libmpg123-0 (>= 1.13.7), libopenal1 (>= 1.14), libpcap0.8 (>= 0.9.8), libpulse0 (>= 0.99.1), libudev1 (>= 183), libx11-6, libxext6, libxml2 (>= 2.9.0), zlib1g (>= 1:1.1.4), libasound2-plugins, libncurses5
+Recommends: libcapi20-3, libcups2 (>= 1.4.0), libdbus-1-3 (>= 1.9.14), libfontconfig1 (>= 2.11.94), libfreetype6 (>= 2.2.1), libglu1-mesa | libglu1, libgnutls30 (>= 3.4.0), libgsm1 (>= 1.0.13), libgssapi-krb5-2 (>= 1.6.dfsg.2), libjpeg8 (>= 8c), libkrb5-3 (>= 1.6.dfsg.2), libncurses5 (>= 6), libodbc1 (>= 2.3.1), libosmesa6 (>= 10.2~), libpng12-0 (>= 1.2.13-4), libsane (>= 1.0.24), libsdl2-2.0-0 (>= 2.0.4), libtiff5 (>= 4.0.3), libv4l-0 (>= 0.5.0), libvulkan1, libxcomposite1 (>= 1:0.3-1), libxcursor1 (>> 1.1.2), libxfixes3, libxi6, libxinerama1, libxrandr2, libxrender1, libxslt1.1 (>= 1.1.25), libxxf86vm1
+Filename: ./wine-devel-i386_3.14.0~xenial_i386.deb
+Size: 24847534
+MD5sum: 5d2cdfbdfcf7a6726c5093079419ed53
+SHA1: dd7076043ce219cf9a607a10baf275f81299f6c2
+SHA256: 86a6e9d78d46f56ca08ebe47befec94907c5a078594311c3302b12d9bbe5db2b
+SHA512: 2741ab226545a73ab18723d1bfba61b441dd72f357746fa92302e54b721d33ee009b603ac414bebe2034763e9d93346d2271c41af3b0d76b8e200c345013d2ec
+Description: WINE Is Not An Emulator - runs MS Windows programs
+ Wine is a program which allows running Microsoft Windows programs
+ (including DOS, Windows 3.x and Win32 executables) on Unix.
+ .
+ This package contains the files needed to support 32-bit Windows
+ programs.
 
 Package: libxfdashboard0
 Architecture: amd64
